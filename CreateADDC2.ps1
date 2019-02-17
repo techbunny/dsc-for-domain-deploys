@@ -50,7 +50,7 @@
 
         xDnsServerAddress DnsServerAddress 
         { 
-            Address        = '127.0.0.1' 
+            Address        = '192.168.1.133' 
             InterfaceAlias = $InterfaceAlias
             AddressFamily  = 'IPv4'
 	        DependsOn = "[WindowsFeature]DNS"
